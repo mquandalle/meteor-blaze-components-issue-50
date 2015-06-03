@@ -1,0 +1,9 @@
+<body>
+  {{#NameComponent}}
+    Hello {{myName}}. <!-- Here it does not work -->
+  {{/NameComponent}}
+</body>
+
+<template name="NameComponent">
+  {{>Template.contentBlock}}
+</template>
